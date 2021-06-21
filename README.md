@@ -21,6 +21,7 @@
 
 ### Functionality
 ##### Users begin on the Auth page to either create an account or sign in:
+![instagram-authorization](https://user-images.githubusercontent.com/40578449/122794353-001d7500-d271-11eb-9bc5-0ec8d37ba6b6.PNG)
 ##### Once authorized they are directed to their profile:
 ##### Users can view and delete specific photos:
 ##### Users can then view the people they follow and search for new people to follow:
