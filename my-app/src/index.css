@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Jaldi', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.centered-row {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.modal-wide {
+  width: 90%;
+}
+
+.view-div {
+  /* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; */
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.image {
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  border-radius: 5px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container:hover .image {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.image-container:hover .middle {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.image {
+  width:100%;
+  vertical-align:top;
+}
+
+h1 {
+  font-family: 'Jaldi', sans-serif;
+  font-weight: 700;
+}
+
+.divider-1 {
+  border-bottom: 1px solid rgb(161, 154, 154);
+  background-color: #DADADA;
+  height: 1px;
+  margin: 0.5em 0px 1.5em;
+}
+
+.nav-custom {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.nav-text {
+  color:#1181B2;
+}
+
+.custom-button {
+  border: 2px solid #44449B;
+  background-color: white;
+  color: #44449B;
+  font-weight:700;
+}
+
+.custom-button:hover {
+  color: white;
+  font-weight:700;
+  border: 2px solid #44449B;
+  background-color: #44449B;
+}
+
+.custom-button:focus {
+  border: 2px solid #44449B;
+  background-color: white;
+  color: #44449B;
+  font-weight:700;
+  box-shadow:none;
+}
+
+.user-name {
+  color:#1181B2;
+}
+
+.user-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.input {
+  outline: none;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+  box-shadow: none;
+}
+
+.input:focus {
+  border: 2px solid #1181B2;
+  border-radius: 3px;
+  box-shadow: none;
+}
+
+.fa-close:hover {
+  color: #1181B2;
+  cursor: pointer;
+}
+
+.fa-arrows {
+  font-size: 36px;
+  color: black;
+}
+
+.fa-arrows:hover {
+  color: #1181B2;
+}
+
