@@ -1,7 +1,7 @@
 # Photo Sharing App
 
 ### Overview
-##### Having wanted to work with GraphQl for some time and never running into it in my current position, I felt the best way to get familiar with it was to build a personal project utlizing i. Therefore, I built this little photo sharing app. 
+##### Having wanted to work with GraphQl for some time and never running into it in my current position, I felt the best way to get familiar with it was to build a personal project utlizing it. Therefore, I built this little photo sharing app. 
 
 ### Installation
 ##### (optional) install npm / node
